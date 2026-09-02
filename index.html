@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>نجاة بيرقدار - قطع غيار السيارات</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            direction: rtl;
+            background-color: #add8e6; /* خلفية أزرق فاتح */
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        header {
+            text-align: center;
+            padding: 40px;
+        }
+        header h1 {
+            color: darkblue;
+            font-size: 32px;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        h3 {
+            color: darkblue;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: gray;
+            padding: 10px;
+        }
+        /* تنسيق الفيديو والنص بجانبه */
+        .video-section {
+            display: flex;
+            flex-direction: row-reverse; /* لأن الصفحة RTL */
+            align-items: center;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .video-section video {
+            width: 300px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+        .video-text {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>نجاة بيرقدار - قطع غيار السيارات</h1>
+    </header>
+
+    <!-- قسم الفيديو -->
+    <section class="video-section">
+        <video controls>
+            <source src="C:\Users\Murad\Desktop\ww.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+        <div class="video-text">
+            <h3>فيديو تعريفي</h3>
+            <p>شاهد هذا الفيديو للتعرف أكثر على منتجاتنا وخدماتنا.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <h3>المنتجات</h3>
+        <p><strong>حساس ضغط الإطارات (TPMS):</strong> يضمن مراقبة ضغط الإطارات بدقة لزيادة الأمان وتوفير الوقود.</p>
+        <p><strong>حساس الأكسجين (O2 Sensor):</strong> يساعد على تحسين أداء المحرك وتقليل استهلاك الوقود.</p>
+    </section>
+
+    <section id="services">
+        <h3>الخدمات</h3>
+        <p>تركيب الحساسات، صيانة دورية، تشخيص أعطال.</p>
+    </section>
+
+    <section id="contact">
+        <h3>تواصل معنا</h3>
+        <p>📞 0770-000-0000</p>
+        <p>✉️ info@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 نجاة بيرقدار - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
